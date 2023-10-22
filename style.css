@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    background-color: aliceblue;
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 3px;
+}
+body{
+    background-color: antiquewhite;
+}
+#videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    margin-top: 3%;
+}
+nav ul li{
+    display: inline-block;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
